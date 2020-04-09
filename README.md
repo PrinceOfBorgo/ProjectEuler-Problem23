@@ -14,7 +14,7 @@ This is my first script in Julia so, probably, it can be done better.
 The solution is simple: make a set of all numbers from 1 to 28123 and remove from them all occurences of numbers got by the sum of two abundant numbers, then add the remaining numbers to get the result.
 
 ## Usage
-Simply run nonabundantsums.jl as a Julia script:
+Simply run `nonabundantsums.jl` as a Julia script:
 ```
 >> julia nonabundantsums.jl
 ```
