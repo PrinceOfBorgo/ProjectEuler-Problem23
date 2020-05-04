@@ -16,5 +16,5 @@ The solution is simple: make a set of all numbers from 1 to 28123 and remove fro
 ## Usage
 Simply run `nonabundantsums.jl` as a Julia script:
 ```
->> julia nonabundantsums.jl
+$ julia nonabundantsums.jl
 ```
