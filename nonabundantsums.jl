@@ -29,9 +29,9 @@ function abundant(n)
 	return false
 end
 
-# We look for numbers that are NOT writeable as sum of two abundant nubmers.
+# We look for numbers that are NOT writeable as sum of two abundant numbers.
 # All numbers greater than 28123 are writeable as sum of two abundant numbers.
-# Since the smallest abundant number is 12, we are intersted in all sums of
+# Since the smallest abundant number is 12, we are interested in all sums of
 # two abundant numbers from 12 to 28123-12, since greater numbers, added to
 # another abundant number, gives a number greater than 28123.
 ab = Integer[]
@@ -46,7 +46,7 @@ sums = Set(1:28123)
 abcopy = copy(ab)
 # Loop through abundant numbers array.
 for n in ab
-	# Remove from sums all the numbers got adding n to every abundant number.
+	# Remove from sums all numbers obtained adding n to every abundant number.
 	setdiff!(sums, abcopy .+ n)
 
 	# NOT REQUIRED
